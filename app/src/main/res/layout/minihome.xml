@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tlqkf.ssproject.minihome"
+    android:background="@drawable/fwfwf"
+    android:id="@+id/_main">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoLink="web"
+    android:text="가준호 선생님"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="50dp"
+    android:id="@+id/ga_zun_ho_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="강만희 선생님"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="135dp"
+        android:id="@+id/gang_man_hei_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="김순상 선생님"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="255dp"
+        android:id="@+id/kim_sun_sang_T"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="김영국 선생님"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/kim_young_kuk_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="박은경 선생님"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="135dp"
+        android:id="@+id/pak_un_gung_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="신소영 선생님"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="255dp"
+        android:id="@+id/sin_so_young_T"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="이미자 선생님"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/lee_mee_za_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="이민주 선생님"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="135dp"
+        android:id="@+id/lee_min_zu_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="이병찬 선생님"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="255dp"
+        android:id="@+id/lee_bung_chang_T"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="이영국 선생님"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/lee_young_kuk_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="최은영 선생님"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="135dp"
+        android:id="@+id/choe_un_young_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="황보현 선생님"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="255dp"
+        android:id="@+id/hoang_bo_huyn_T"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="황한모 선생님"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:id="@+id/haong_han_mo_T"/>
+
+        <Button
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:id="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/url"
+            android:onClick="onClick"/>
+    </RelativeLayout>
+    <RelativeLayout
+
+android:id="@+id/slme"
+android:layout_width="240dp"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_gravity="left"
+android:background="#D7FAC0"
+android:visibility="gone"
+    >
+<Button
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:id="@+id/button"
+    android:layout_row="0"
+    android:layout_column="0"
+    android:shadowColor="#00000000"
+    android:background="@drawable/imgresd"
+    android:onClick="onClick"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_below="@+id/button9"
+    android:layout_alignParentStart="true"
+    android:id="@+id/button10"
+    android:onClick="onClick"/>
+
+<Button
+    android:layout_marginTop="36dp"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:id="@+id/button9"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:onClick="onClick"/>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    android:id="@+id/button13"
+    android:layout_below="@+id/button10"
+    android:layout_alignParentStart="true"
+    android:onClick="onClick"/>
+
+<Button
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="125dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/button8"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@+id/button13"
+    android:onClick="onClick"/>
+
+<Button
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="125dp"
+    android:layout_height="160dp"
+    android:id="@+id/button11"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/button13"
+    android:onClick="onClick"/>
+
+</RelativeLayout>
+</FrameLayout>
