@@ -310,8 +310,6 @@
 
 </LinearLayout>
     <RelativeLayout
-
-
         android:id="@+id/slme"
         android:layout_width="240dp"
         android:layout_height="match_parent"
@@ -329,14 +327,15 @@
             android:layout_column="0"
             android:shadowColor="#00000000"
             android:background="@drawable/imgresd"
-            android:onClick="OnClick"/>
+            android:onClick="onClick"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="140dp"
             android:layout_below="@+id/button9"
             android:layout_alignParentStart="true"
             android:id="@+id/button10"
-            android:onClick="OnClick"/>
+            android:onClick="onClick"
+            android:text="minihome"/>
 
         <Button
             android:layout_marginTop="36dp"
@@ -345,7 +344,8 @@
             android:id="@+id/button9"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
-            android:onClick="OnClick"/>
+            android:onClick="onClick"
+            android:text="main"/>
 
 
         <Button
@@ -354,7 +354,8 @@
             android:id="@+id/button13"
             android:layout_below="@+id/button10"
             android:layout_alignParentStart="true"
-            android:onClick="OnClick"/>
+            android:onClick="onClick"
+            android:text="Road view"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -364,7 +365,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_below="@+id/button13"
-            android:onClick="OnClick"/>
+            android:onClick="onClick"
+            android:text="club"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
@@ -374,7 +376,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button13"
-            android:onClick="OnClick"/>
+            android:onClick="onClick"
+            android:text="map"/>
 
     </RelativeLayout>
 </FrameLayout>
